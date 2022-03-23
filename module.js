@@ -1,10 +1,10 @@
-let sname="bhargavi";
-let clg="CVR";
-let branch="IT";
+var name="bhargavi";
+var clg="CVR";
+var branch="IT";
 
-function display(){
-    console.log("name:"+this.name+"clg :"+this.clg+"branch :"+this.branch);
+export function display(){
+    console.log("name:"+name+"clg :"+clg+"branch :"+branch);
 }
-export default display();
+
 
 

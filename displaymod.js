@@ -1,1 +1,2 @@
-import display from "./module.js";
+import {display} from "./module.js";
+display()
